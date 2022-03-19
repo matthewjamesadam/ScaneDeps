@@ -20,22 +20,22 @@ struct DepLib {
 // List of all dependencies we pull from homebrew
 let saneLib = DepLib(
     name: "sane-backends",
-    version: "1.0.32",
+    version: "1.1.1",
     libName: "libsane",
     dylibName: "libsane.dylib",
     shas: [
-        "arm64":  "63e8564065939a6a8dd41b20293d20e35b94ff75ebaec99181d286269624a3ec", // arm64_monterey
-        "x86_64": "ca18d70d2c990dca6f77b72c8d6fe5e04f66bb7a314a35fe4f9a0452e57e9eeb", // monterey
+        "arm64":  "5ce5536fb913f7a9da86681e0dfe280024f06243ffc34e6290c74bec3ca0beb4", // arm64_monterey
+        "x86_64": "3d8d4820d67a24d31aeef2252a52fdfe295ac9fa6ac62b9646b9c48af0867a79", // monterey
 ])
 
 let usbLib = DepLib(
     name: "libusb",
-    version: "1.0.24",
+    version: "1.0.25",
     libName: "libusb",
     dylibName: "libusb-1.0.dylib",
     shas: [
-        "arm64":  "715b8ecff2ca68aeb277664cf22e433e33bef7b2a25dfd577b6abb0dd3e6e730", // arm64_monterey
-        "x86_64": "e77deec33475ce0a496be778b6fbf1d5e6a656e46fbf4baad52049330b48b01d", // monterey
+        "arm64":  "ff2e884605bc72878fcea2935e4c001e4abd4edf97996ea9eaa779557d07983d", // arm64_monterey
+        "x86_64": "95c09d4f1f6e7a036b8d09a5ced561c0b8be29e6caa06030624e77f10ad2521a", // monterey
 ])
 
 let pngLib = DepLib(
@@ -60,12 +60,12 @@ let tiffLib = DepLib(
 
 let jpegLib = DepLib(
     name: "jpeg",
-    version: "9d",
+    version: "9e",
     libName: "libjpeg",
     dylibName: "libjpeg.dylib",
     shas: [
-        "arm64":  "ea3b46eb66c711e99ccbab7f9b821efeecbc737ab07e1104e37eafc0bdba8a5f", // arm64_monterey
-        "x86_64": "1a67c415e4636c77057bf80bf37ea3978e4888064a8b7fd04c0cf71a24f32cee", // monterey
+        "arm64":  "5d4520a90181dd83b3f58b580cd3b952cacf7f7aa035d5fd7fddd98c1e6210d1", // arm64_monterey
+        "x86_64": "208af924cc7a42f53ab8ce50084eb76faadc3c1942e842484acbb2e74a54465c", // monterey
 ])
 
 
